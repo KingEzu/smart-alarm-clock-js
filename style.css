@@ -141,4 +141,13 @@
     border: none;
     cursor: pointer;
 
-}
+
+
+  }
+    .footer{
+        position: fixed;
+        transform: translate (-50%, -50%);
+        bottom: 10px;
+        color: #abb3de;
+    
+    }
