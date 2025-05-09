@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #1e1e2f;
+        color: #fff;
+      }
+   
+#clock {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #clock h2 {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  #time {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #time div {
+    background: #282a3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  #time span:first-child {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+
+  #time span:last-child {
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+
+  #alarm {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #alarm-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  #alarm-controls select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: #2e2f4f;
+    color: white;
+    border: 1px solid #444;
+  }
+
+  #alarm-controls button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: none;
+    background-color: #00b894;
+    color: white;
+    cursor: pointer;
+  }
+
+  #alarm-status {
+    margin-top: 10px;
+    font-weight: bold;
+    color: lightgreen;
+  }
+
+  #stop-btn {
+    background-color: crimson;
+    color: white;
+    display: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  #saved-alarms {
+    background-color: #282a3a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    width: 250px;
+    text-align: left;
+  }
+
+  #saved-alarms ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.95em;
+    color: #aaffaa;
+  }
+
+  #saved-alarms ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #saved-alarms ul li:last-child {
+    border-bottom: none;
+  }
+
+  #saved-alarms h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: lightgreen;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
